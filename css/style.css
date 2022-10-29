@@ -112,7 +112,7 @@ button {
     font-family: var(--title-font);
     font-size: 3.6rem;
     color: var(--light-clr-3);
-    letter-spacing: 1rem;
+    letter-spacing: 1px;
 }
 
 .title_main {
@@ -491,7 +491,7 @@ main {
     }
 
     .services_list {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .services_list_item {
@@ -528,9 +528,5 @@ main {
 
     .services_container {
         grid-template-columns: 1fr , 1.5fr;
-    }
-
-    .services_list {
-        grid-template-columns: repeat(2, 1fr);
     }
 }
