@@ -58,7 +58,7 @@ button {
 
 /*! === SCROLLBAR === */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 11px;
 }
 
 ::-webkit-scrollbar-track {
@@ -529,4 +529,8 @@ main {
     .services_container {
         grid-template-columns: 1fr , 1.5fr;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 46a2bc5ef4ae0a47104752c52caa06b7ac6b9260
